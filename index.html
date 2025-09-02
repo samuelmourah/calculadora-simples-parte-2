@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="meuCSS.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora Simples</h1>
+       
+        <div class="display" id="visor">0</div>
+
+        <div class="botoes">
+            <button class="btn operador" onclick="limpar(event)">C</button>
+            <button class="btn operador" onclick="mostrar(event)">÷</button>
+            <button class="btn operador" onclick="mostrar(event)">×</button>
+            <button class="btn operador" onclick="mostrar(event)">-</button>
+
+            <button class="btn numero" onclick="mostrar(event)">7</button>
+            <button class="btn numero" onclick="mostrar(event)">8</button>
+            <button class="btn numero" onclick="mostrar(event)">9</button>
+            <button class="btn operador" onclick="mostrar(event)">+</button>
+
+            <button class="btn numero" onclick="mostrar(event)">4</button>
+            <button class="btn numero" onclick="mostrar(event)">5</button>
+            <button class="btn numero" onclick="mostrar(event)">6</button>
+            <button class="btn igual" onclick="calcular(event)">=</button>
+
+            <button class="btn numero" onclick="mostrar(event)">1</button>
+            <button class="btn numero" onclick="mostrar(event)">2</button>
+            <button class="btn numero" onclick="mostrar(event)">3</button>
+
+            <button class="btn numero zero" onclick="mostrar(event)">0</button>
+            <button class="btn virgula" onclick="mostrar(event)">,</button>
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
